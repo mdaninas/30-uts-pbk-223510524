@@ -217,11 +217,11 @@ h1 span {
   justify-content: space-around;
   width: 40%;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.6); /* Menggeser latar belakang di sini */
-  padding: 20px; /* Padding untuk jarak antara elemen */
+  background: rgba(255, 255, 255, 0.6); 
+  padding: 20px; 
 }
 
-/* Gaya untuk Header Bagian Todo (Hitam) */
+
 .black {
   position: relative;
   background-color: white;
@@ -229,10 +229,10 @@ h1 span {
   width: 100%;
   border-top-left-radius: 20px;
   overflow: hidden;
-  margin-bottom: 20px; /* Menggeser header dari konten */
+  margin-bottom: 20px; 
 }
 
-/* Gaya untuk Header Bagian Posting (Biru) */
+
 .blue {
   background-color: black;
   color: white;
@@ -243,10 +243,10 @@ h1 span {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  margin-bottom: 20px; /* Menggeser header dari konten */
+  margin-bottom: 20px; 
 }
 
-/* Gaya untuk Bagian Konten Posting (Kuning) */
+
 .yellow {
   height: 85%;
   width: 100%;
@@ -261,23 +261,23 @@ h1 span {
   box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.5);
 }
 
-/* Gaya untuk List Item */
+
 li {
   padding-top: 20px;
 }
 
-/* Gaya untuk List */
+
 ul {
   height: 80%;
   overflow: auto;
 }
 
-/* Gaya untuk Tanda Check pada Item Selesai */
+
 .completed {
   text-decoration: line-through;
 }
 
-/* Gaya untuk Tombol */
+
 .button-28,
 .button-29,
 .button-20 {
@@ -304,14 +304,14 @@ ul {
   will-change: transform;
 }
 
-/* Gaya untuk Tombol Saat Dinaktifkan */
+
 .button-28:disabled,
 .button-29:disabled,
 .button-20:disabled {
   pointer-events: none;
 }
 
-/* Efek Hover pada Tombol */
+
 .button-28:hover,
 .button-29:hover,
 .button-20:hover {
@@ -321,7 +321,7 @@ ul {
   transform: translateY(-2px);
 }
 
-/* Efek Ketika Tombol Ditekan */
+
 .button-28:active,
 .button-29:active,
 .button-20:active {
@@ -329,7 +329,7 @@ ul {
   transform: translateY(0);
 }
 
-/* Gaya untuk Input Box */
+
 .box {
   position: relative;
   bottom: 15px;
@@ -347,7 +347,7 @@ ul {
   transition: all 0.1s ease 0s;
 }
 
-/* Gaya saat Input Box dalam Fokus */
+
 .box:focus {
   border: 2px solid rgb(124, 138, 255);
 }
